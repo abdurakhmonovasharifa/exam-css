@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 8px solid grey; 
+}
+
+header nav {
+    max-width: 1300px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .hamburger {
+    display: none;
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none ;
+    padding: 15px;
+    align-items: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width:520px){
+    header nav .list__item{
+        display: none;
+    }
+
+    header nav .hamburger {
+        display: flex;
+    }
+}
+
+
+section {
+    position: relative;
+    padding:70px ;
+}
+
+
+section .section__wrapper {
+    max-width: 1300px;
+    margin: auto;
+    margin-right:  40px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+section .section__wrapper .section__item {
+    width: 49%;
+}
+
+section img .byscle__item {
+   width: 400px;
+   height: 400px;
+   display: flex;
+}
+
+main {
+    width: 1156px;
+    height: 560px;
+    margin: auto;
+}
+
+main h1 {
+    width: 376px;
+    height: 43px;
+}
+
+main .centre .button {
+    padding: 20%;
+    display: flex;
+
+}
+
+ main.section__wrapper .main__item .card {
+    width: 30%;
+    display: flex;  
+    padding: 30px;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 10px;
+}
+.card1 {
+    position: absolute;
+    left: 200px;
+}
+.card2 {
+    position: absolute;
+    left: 400px;
+    top:1100px;
+    
+}
+.card3 {
+    position: absolute;
+    left: 600px;
+}
+.card4 {
+    position: absolute;
+    left: 800px;
+}
+.card5 {
+    position: absolute;
+    left: 1000px;
+}
+.main__item {
+   position: absolute;
+   left: 900px;
+    top: 1600px;
+}
+.main__wrapper {
+    position: absolute;
+    top: 1450px;
+}
+.card11 {
+    position: absolute;
+
+}
+.pizza {
+    position: absolute;
+    width: 1169px;
+    height: 957px;
+    top: 2483px;
+    left: 135px;
+
+}
+.a2 {
+    width: 1212px;
+    height: 723px;
+    top: 1632px;
+    left: 82px;
+}
+.card12 {
+    position: absolute;
+    left:400px;
+}
+.card13 {
+    position: absolute;
+    left:800px;
+}
+.card14 {
+    position: absolute;
+    top: 500px;
+}
+.card15 {
+    position: absolute;
+    left:400px;
+    top: 500px;
+}
+.card16 {
+    position: absolute;
+    left:800px;
+    top: 500px;
+}
+.a4 {
+    position: absolute;
+    left: 550px;
+    top: 2400px;
+}
+
+footer .b3 {
+    position: absolute;
+    top: 3500px;
+    left: 50%;
+}
+
+footer .n7 {
+    position: absolute;
+    top: 3500px; 
+    right: 65%; 
+}
+
+footer .m7 {
+    position: absolute;
+    top: 3660px;
+    left: 15%;
+}
+
+
+footer .s3 {
+    position: absolute;
+    top: 4099px;
+    right: 85px ;
+}
+
+footer .f2 {
+    position: absolute;
+    top: 3999px;
+    left: 85px;
+}
